@@ -1,20 +1,26 @@
-<<<<<<< HEAD
-# user_management
-=======
 # user_management
 
-A new Flutter project.
+Prerequisites
+Before setting up the project, ensure you have the following installed:
 
-## Getting Started
+Flutter SDK
+Visual Studio Code (optional, but recommended for development)
 
-This project is a starting point for a Flutter application.
+Install Flutter SDK
+Download the Flutter SDK from the Flutter website.
+Extract the ZIP file to a folder (e.g., C:\flutter).
+Add the flutter/bin directory to your system's PATH variable:
+Open Environment Variables settings (Search for "env" in the start menu).
+Edit the Path variable and add C:\flutter\bin.
 
-A few resources to get you started if this is your first Flutter project:
+Run the following command to check the setup and ensure all dependencies are installed:
+cmd - flutter doctor
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Create and Set Up the Project
+Clone or download this repository:
+git clone <repository_url>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
->>>>>>> fec1705 (intial commit)
+Install the dependencies - flutter pub get 
+
+Run the project -- flutter run 
+
